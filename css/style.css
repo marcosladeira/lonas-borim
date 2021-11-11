@@ -1,0 +1,347 @@
+:root{
+    --brand-color: #FF0000;
+    --azul:#009cde;
+    --botao:#009cde;
+}
+.navbar{
+    box-shadow: rgba(0,0,0,0.25) 0 3px 11px 0 !important;
+}
+
+body { 
+    overflow-x: hidden;
+ }
+
+.fa-whatsapp{
+    color: #A5792E;
+    
+}
+
+.bi-telephone-fill{
+    color: #FFFFFF;
+}
+
+.bi-facebook{
+    color: #AE1817;
+}
+
+.bi-envelope{
+    color: #AE1817;;
+}
+
+.bi-envelope-fill{
+    color: #FFFFFF;
+}
+
+.bi-geo-alt-fill{
+    color: #FFFFFF;
+}
+
+.exemplo2{
+    color: black;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+html {
+    scroll-behavior: smooth;
+  }
+.inf{
+    background: #29794C;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  div#galeria-cover{
+      height: 100px;
+      width: 30vh;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+  }
+
+  div#empresa{
+    height: 65vh;
+    width: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-control{
+    border-color: black;
+    border-width: 2px;
+}
+
+.img{
+    position: relative;
+    width: 300px;
+    height: 250px;
+    margin: 50px auto 0 auto;
+    border-radius: 0px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-repeat: no-repeat;
+  }
+
+  .col-md-3#empresa{
+    height: 30vh;
+    width: 30vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.col-md-3#empresa:hover .overlay{
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(39, 42, 43, 0.8);
+}
+
+.texto-empresa{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.col-md#empresa:hover .overlay{
+    opacity: 1;
+}
+
+.col-md#empresa{
+    height: 30vh;
+    width: 30vh;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col-sm#empresa{
+    height: 65vh;
+    width: 15rem;
+    overflow: hidden;
+    transition: .5s ease;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.col-sm#empresa:hover .overlay{
+    opacity: 1;    
+}
+
+a.nostyle:link {
+    text-decoration: inherit;
+    color: inherit;
+}
+a.nostyle:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: aliceblue;
+}
+
+.carousel-caption {
+  height:50%;
+}
+
+.carousel-inner{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.carouselExampleControls{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.carousel-item{
+
+    background-repeat: no-repeat;
+}
+
+.carousel-caption h5{
+  text-align: center;
+
+}
+
+.d-block{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+div#galeria-cover{
+    color: #FFFFFF;
+    height: 45vh;
+    width: 35vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+.img1{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+ 
+.jumbotron{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/img-contato2.jpg") ;
+    color: white;
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron2{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/Localizacao.png") ;
+    color: white;
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+.jumbotron3{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/Localizacao.png") ;
+    color: white;
+    width: 1000px;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  .jumbotron4{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/capa-piscina-lona-aco-D_NQ_NP_618505-MLB25045190257_092016-F.jpg") ;
+    color: white;
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+
+  .jumbotron5{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/road-trip-clauds.jpg") ;
+    color: white;
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+
+  .jumbotron6{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/empresa.jpg") ;
+    color: white;
+    width: 100%;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+  }
+
+.bi-clock-fill{
+    color:#1C2A78;
+}
+
+.bi-wrench{
+    color:#1C2A78;
+}
+
+.bi-check-circle{
+    color: #1C2A78;
+}
+
+.bi-shop{
+    color: #1C2A78;
+}
+
+.jumbotron h3{
+    color:#dedede;
+    font-weight: 300;
+}
+.jumbotron__botoes button{
+width: 220px;
+
+}
+.card{
+    border: 0px;
+    box-shadow: rgba(0,0,0,0.25) 0 3px 11px 0 !important;
+}
+.btn-danger{
+    background: var(--brand-color);
+}
+hr{
+    color: brown;
+    border: 2px solid ;
+    color: black;
+    width: 85px;
+}
+.card-title{
+    font-size: 22px;
+}
+.texto hr{
+    border-color:var(--azul) ;
+}
+.btn-info{
+    background: var(--botao);
+width: 280px!important;
+}
+
+.desfecho{
+    background: #333333;
+    height: 85px;
+}
+.desfecho hr{
+    width: 188px;
+ 
+}
+.quadrado{
+    background:  #b50107;
+    color: white;
+}
+.quadrado p{
+    font-size: 40px;
+}
+.row{
+    font-size: 30px;
+}
+.row i{
+    font-size: 60px;
+    color:  #FFFFFF;
+}
+
+@media(max-width: 576px){
+    .inf{
+        display: none!important;
+    }
+}
